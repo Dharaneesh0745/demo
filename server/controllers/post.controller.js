@@ -1,4 +1,4 @@
-router.createPost = (req, res, next) => {
+const createPost = (req, res, next) => {
   try {
     // const { title, description } = req.body;
     console.log(req.body);
